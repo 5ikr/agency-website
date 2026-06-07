@@ -30,7 +30,7 @@ const Footer = ({theme}) => {
             <hr className='border-gray-300 dark:border-gray-600 my-6' />
 
             <div className='pb-6 text-sm text-gray-500 flex justify-center sm:justify-between gap-4 flex-wrap'>
-                <motion.p initial={{opacity:0, scale: 0.9}} whileInView={{opacity:1, scale: 1}} transition={{duration:0.5, delay: 0.2}} viewport={{once:true}}>Copyright 2026 © agency.io - All Rights Reserved</motion.p>
+                <motion.p initial={{opacity:0, scale: 0.9}} whileInView={{opacity:1, scale: 1}} transition={{duration:0.5, delay: 0.2}} viewport={{once:true}}>Copyright 2026 © Pragdeesh Kumar - All Rights Reserved</motion.p>
                 <div className='flex items-center justify-between gap-4'>
                     <motion.img initial={{opacity:0, scale: 1.1}} whileInView={{opacity:1, scale: 1}} transition={{duration:0.2, delay: 0.2}} viewport={{once:true}} src={assets.facebook_icon} className='hover:scale-110 cursor-pointer' alt="" />
                     <motion.img initial={{opacity:0, scale: 1.1}} whileInView={{opacity:1, scale: 1}} transition={{duration:0.2, delay: 0.25}} src={assets.twitter_icon} className='hover:scale-110 cursor-pointer' alt="" />
